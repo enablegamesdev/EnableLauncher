@@ -24,10 +24,9 @@ After the Patcher is finished, the Launcher will re-open.  Log in again when you
 
 Select the game you want to download from the left side of the screen.  Click the "Update Game" button in the top-left corner of the screen.  It will launch the Patcher in another window.
 
-
+![image](https://github.com/user-attachments/assets/68f12353-d1b2-48ec-9068-505cdc536059)
 
 When the Patcher finishes installing your game, refresh the Launcher and press the Play button in the top-left corner to play your game.
 
 ##<a id="bodyTracking"></a>Body Tracking
 Check the Wiki Page for instructions on body tracking.
-
