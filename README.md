@@ -28,5 +28,5 @@ Select the game you want to download from the left side of the screen.  Click th
 
 When the Patcher finishes installing your game, refresh the Launcher and press the Play button in the top-left corner to play your game.
 
-##<a id="bodyTracking"></a>Body Tracking
+## <a id="bodyTracking"></a>Body Tracking
 Check the Wiki Page for instructions on body tracking.
