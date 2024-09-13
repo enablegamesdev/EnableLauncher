@@ -9,7 +9,7 @@ Created by [enAbleGames](https://www.enablegames.com/)
 - [Body Tracking](#bodyTracking)
 
 ## <a id="introduction"></a>Introduction
-Enable Launcher is where you can access all games from EnableGames using your EnableGames account.
+Enable Launcher is where you can access all games from EnableGames using your EnableGames account, check [here](https://github.com/enablegamesdev/EnableLauncher/wiki/Account-Creation) if you have not already gotten one.
 
 It can also handle body tracking using Kinect, Orbbec Astra, webcam, color tracking, or passing tracking data from EnableServer.
 
@@ -29,4 +29,4 @@ Select the game you want to download from the left side of the screen.  Click th
 When the Patcher finishes installing your game, refresh the Launcher and press the Play button in the top-left corner to play your game.
 
 ## <a id="bodyTracking"></a>Body Tracking
-Check the Wiki Page for instructions on body tracking.
+Check the [Wiki Page](https://github.com/enablegamesdev/EnableLauncher/wiki/Controlling-Games-With-Body-Tracking) for instructions on body tracking.
