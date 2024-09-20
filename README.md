@@ -13,7 +13,7 @@ The EnableLauncher is an app from which you can download and play all games in t
 It handles game controls by tracking your body motions from using Kinect, Orbbec Astra, webcam, color tracking, or from connecting to the EnableServer App.
 
 To use the app, you will need an enAbleGames account. If you do not already have an account, you can set one up with the following link:
-[here](https://github.com/enablegamesdev/EnableLauncher/wiki/Account-Creation)
+[Account-Creation](https://github.com/enablegamesdev/EnableLauncher/wiki/Account-Creation)
 
 ## <a id="installation"></a>Installation
 You can download the installer from the [release page](https://github.com/enablegamesdev/EnableLauncher/releases).
