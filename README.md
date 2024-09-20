@@ -32,7 +32,7 @@ When the Patcher finishes installing your game, refresh the Launcher and press t
 
 ## <a id="bodyTracking"></a>Body Tracking
 
-### There are 4 types of controls in the EnableLauncher
+### There are 4 types of controls in the EnableLauncher:
 - [Kinect/Astra](#kinect)
 - [Webcam Tracking](#webcam)
 - [The enableServer APP](#enableserver)
