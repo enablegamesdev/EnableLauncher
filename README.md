@@ -9,9 +9,11 @@ Created by [enAbleGames](https://www.enablegames.com/)
 - [Body Tracking](#bodyTracking)
 
 ## <a id="introduction"></a>Introduction
-Enable Launcher is where you can access all games from EnableGames using your EnableGames account, check [here](https://github.com/enablegamesdev/EnableLauncher/wiki/Account-Creation) if you have not already gotten one.
+The enAbleLauncher is an app in which you can download and play all games in the enAbleGames catalog using your enAbleGames account.
+It handles game controls by tracking your body motions from using Kinect, Orbbec Astra, webcam, color tracking, or from connecting to the enAbleServer App.
 
-It can also handle body tracking using Kinect, Orbbec Astra, webcam, color tracking, or passing tracking data from EnableServer.
+If you do not already have an account, you can set one up with the following link:
+[here](https://github.com/enablegamesdev/EnableLauncher/wiki/Account-Creation)
 
 ## <a id="installation"></a>Installation
 You can download the installer from the [release page](https://github.com/enablegamesdev/EnableLauncher/releases).
