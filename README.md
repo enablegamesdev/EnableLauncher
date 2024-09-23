@@ -59,6 +59,8 @@ Webcam Tracking can be activated by pressing the “Start Webcam Tracking” but
 
 By checking the “Only Move Upper Body” option, you can reduce latency in body tracking, though you will not be able to use your legs.
 
+There are different modes that also limit the data tracked, such as "full" for full body controls, "pose_and_hand" to control both body and hnad motions, etc. These can be switched between for more accurate data or better performance.
+
 If you plug your camera in to your computer after the library screen has been loaded, press the "Refresh" button at the top of the screen to load it into the cameras menu of the "Holistic Webcam Controls" panel.
 
 This method of control can be used on any piece of hardware with a camera, though it also requires a GPU card.  It may slow performance depending on the capabilities of the user’s device.
