@@ -65,21 +65,24 @@ This method of control can be used on any piece of hardware with a camera, thoug
 
 
 ## <a id = "enableserver"></a> enableServer App
-You can set up the app using the enableServer Manual via this link: [enableServer Manual](https://ambitious-dune-026773e10.5.azurestaticapps.net/e-ag-server-manual/)
+The enableServer App is the standalone software that can handle motion capture using any camera on your PC, Mac, or mobile devices, including webcams. The Supported Platforms are:
+
+- iOS
+- PC
+- macOS
+
+If you have the enableServer app installed on a secondary device, you can remotely control the EnableLauncher on your computer.  You will need to connect your secondary device to the same wifi as the device running the EnableLauncher.
 This method requires a second device, but it may reduce latency in games since the body pose processing is not being handled by your computer.
 
-If you have the enableServer app installed on a secondary device, you can control the EnableLauncher remotely.  You will need to connect your secondary device to the same wifi as the device running the EnableLauncher.
-
-Connect to the EnableLauncher from the app
-Using the button on the bottom left of enableServer, add the device and input the IP Address from the EnableLauncher, which can be found on the right side of the Options tab.  You can also manually scan the QR code from the EnableLauncher in the app.
+**Connect to the EnableLauncher from the app**
+![IMG_0006](https://github.com/user-attachments/assets/bc71037f-a74b-42df-8f85-17fde6f75ab1)
+Using the button on the bottom left of enableServer, add the device and input the IP Address from the EnableLauncher, which can be found on the right side of the Options tab.  You can also manually scan the QR code from the EnableLauncher in the app by clicking the square button in the bottom right, or you can manually input the IP address by tapping the "+" button and typing the IP address of your computer in the field above the "Launcher/Game" toggle.
 
 The enableServer app can also communicate directly with games if the EnableLauncher is not running.  The connection QR code or IP address can be found through a game’s pause menu.
 
 
-Connect to the app from the EnableLauncher
-In the Options screen of the EnableLauncher, type your phone’s IP address in the field under “Receive Remote” button, then click the “Receive Remote” button. 
-
-
+**Connect to the app from the EnableLauncher**
+In the Body Tracking screen of the EnableLauncher, type your phone’s IP address in the field under “Receive Remote” button, then click the “Receive Remote” button. 
 
 
 
