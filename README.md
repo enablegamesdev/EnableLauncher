@@ -6,11 +6,11 @@ Created by [enAbleGames](https://www.enablegames.com/)
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Installing and Playing Games](#games)
-- [Body Tracking](#bodyTracking)
-- [Game Filters](#gameFilters)
+- [Body Tracking](#bodytracking)
+- [Game Filters](#gamefilters)
 - [Resources/Log Out](#resources)
 
-/## <a id="introduction"></a>Introduction
+## <a id="introduction"></a>Introduction
 
 The EnableLauncher is an app from which you can download and play all games in the enAbleGames catalog.
 It handles game controls by tracking your body motions from using Kinect, Orbbec Astra, webcam, color tracking, or from connecting to the EnableServer App.
@@ -44,7 +44,7 @@ Information about the currently selected game can be viewed on the enAbleGames w
 
 
 
-## <a id="bodyTracking"></a>Body Tracking
+## <a id="bodytracking"></a>Body Tracking
 
 ### There are 4 types of controls in the EnableLauncher:
 - Kinect/Astra
@@ -146,7 +146,7 @@ This method is the least intensive of any control style, though it is highly lim
 
 
 
-## <a id="introduction"></a>Introduction
+## <a id="gamefilters"></a>Game Filters
 
 ![Filters Menu](https://github.com/user-attachments/assets/299719d1-de26-4efc-a9c8-d91166bc3879)
 
@@ -154,4 +154,6 @@ In the filters menu, you can search for games by type.  Check the box on the lef
 
 
 
-****
+## <a id="resources"></a>Resources/Log Out
+
+
