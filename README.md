@@ -10,6 +10,9 @@ Created by [enAbleGames](https://www.enablegames.com/)
 - [Game Filters](#gamefilters)
 - [Resources/Log Out](#resources)
 
+
+
+
 ## <a id="introduction"></a>Introduction
 
 The EnableLauncher is an app from which you can download and play all games in the enAbleGames catalog.
@@ -20,6 +23,8 @@ To use the app, you will need an enAbleGames account. If you do not already have
 
 
 
+
+
 ## <a id="installation"></a>Installation
 
 You can download the installer from the [release page](https://github.com/enablegamesdev/EnableLauncher/releases).
@@ -27,6 +32,8 @@ You can download the installer from the [release page](https://github.com/enable
 After installing the Launcher, log in using your enAbleGames account.  It may take a few minutes to check for updates.  When the Launcher asks if you would like to download updates, select "Yes".  The Launcher will open the Patcher application in a new window.
 
 After the Patcher is finished, the Launcher will re-open.  Log in again when you see the login screen, and you will see the Library page.
+
+
 
 
 
@@ -41,6 +48,8 @@ When the Patcher finishes installing your game, refresh the Launcher using the b
 There are also buttons for "Update All" and "Reinstall All", as well as the "Reinstall Game" button.  The buttons for "all" will cue updates for all games in the patcher, the "Reinstall" buttons will delete either all games or the currently selected game, respectively. 
 
 Information about the currently selected game can be viewed on the enAbleGames website via the first tab, wich will display the name of that game.
+
+
 
 
 
@@ -146,6 +155,8 @@ This method is the least intensive of any control style, though it is highly lim
 
 
 
+
+
 ## <a id="gamefilters"></a>Game Filters
 
 ![Filters Menu](https://github.com/user-attachments/assets/299719d1-de26-4efc-a9c8-d91166bc3879)
@@ -156,4 +167,10 @@ In the filters menu, you can search for games by type.  Check the box on the lef
 
 ## <a id="resources"></a>Resources/Log Out
 
+![Login Menu](https://github.com/user-attachments/assets/512462c2-51c0-4559-b838-ec9281443f98)
 
+From this menu, you have the following options:
+- Check online resources, such as setup instructions and the contact page.
+- Restart the EnableLauncher with the "Logout" button.
+- Exit the EnableLauncher with the "Quit" button.
+- View the version number, as displayed in the bottom right corner.
