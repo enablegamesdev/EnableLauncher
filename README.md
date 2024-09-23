@@ -75,15 +75,43 @@ If you have the enableServer app installed on a secondary device, you can remote
 This method requires a second device, but it may reduce latency in games since the body pose processing is not being handled by your computer.
 
 **Connect to the EnableLauncher from the app**
+The Procedure is identical across all platforms and different mocap solutions.
+
+Ensure your devices running the enableServer and tbe EnableLauncher/games are on the same network or device.
+
+In the initial menu, select your control mode.  For best performance on an iOS device, select "OSC".  Note that this control mode can only use your device's back cameras.
+the Holistic version has more flexibility in tracking mode, including hand tracking and face tracking, and can use both back and front cameras but have longer latency.  However, it may have less accurate data since it is only using a single camera to calculate body data.  Below, we will demonstrate connecting to the app using the OSC mode.
+_UNet is Deprecated. Do not use it unless asked to. OSC is the standard ARKit version, and Holistic is the Holistic version._
+
 ![IMG_0006](https://github.com/user-attachments/assets/bc71037f-a74b-42df-8f85-17fde6f75ab1)
-Using the button on the bottom left of enableServer, add the device and input the IP Address from the EnableLauncher, which can be found on the right side of the Options tab.  You can also manually scan the QR code from the EnableLauncher in the app by clicking the square button in the bottom right, or you can manually input the IP address by tapping the "+" button and typing the IP address of your computer in the field above the "Launcher/Game" toggle.
+Once you are in the camera scene, press the button on the bottom left of enableServer.  From here, you can manually scan the QR code from the EnableLauncher in the app by clicking the square button in the bottom right, or you can manually input the IP address by tapping the "+" button and typing the IP address of your computer in the field above the "Launcher/Game" toggle.
 
-The enableServer app can also communicate directly with games if the EnableLauncher is not running.  The connection QR code or IP address can be found through a game’s pause menu.
+The enableServer app can also communicate directly with games if the EnableLauncher is not running.  The connection QR code or IP address can be found through a game’s pause menu.  Make sure to set the "Launcher/Game" toggle to the appropriate setting when you are trying to connect directly to a game.
 
+If you are successfully connected, a widget will appear showing the IP address you are connected to, and the User Name of your Enable Games account if you connect automatically with the launcher. Click on the widget to start sending the tracking data.  It will change from red to green if it is sending.
+
+You can connect to multiple devices running the launcher and game simultaneously, but you can only connect to one game on one PC.
 
 **Connect to the app from the EnableLauncher**
-In the Body Tracking screen of the EnableLauncher, type your phone’s IP address in the field under “Receive Remote” button, then click the “Receive Remote” button. 
+If you are trying to connect your secondary device to the EnableLauncher and your network supports UDP Broadcasting, you can type your secondary device’s IP address in the field under the “Receive Remote” button, then click the “Receive Remote” button.
 
+**Using Holistic Motion Tracking**
+
+![IMG-0528](https://github.com/user-attachments/assets/1c10a2cd-b325-4e73-985e-b5edda338b21)
+
+To use Holistic Motion Tracking, you must choose the camera you are using and then press the Start/Stop button. There are five modes you can choose from:
+- full: Tracking pose, hand, and face
+- pose and face
+- pose and hand: choose this if you want to track the rotation of the wrists
+- pose only
+- face only
+- We recommend you only track the elements you use to decrease the latency.
+
+Face tracking is currently not supported on iOS.
+
+**Known Issues**
+-On iOS, if you put your device to sleep when using eAgServer, you need to restart the app to resume the tracking.
+-Check your firewall settings if you have problem on connecting.
 
 
 ## <a id = "color"></a> Color Tracking
