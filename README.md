@@ -7,20 +7,27 @@ Created by [enAbleGames](https://www.enablegames.com/)
 - [Installation](#installation)
 - [Installing and Playing Games](#games)
 - [Body Tracking](#bodyTracking)
+- [Game Filters](#gameFilters)
 
 ## <a id="introduction"></a>Introduction
+
 The EnableLauncher is an app from which you can download and play all games in the enAbleGames catalog.
 It handles game controls by tracking your body motions from using Kinect, Orbbec Astra, webcam, color tracking, or from connecting to the EnableServer App.
 
 To use the app, you will need an enAbleGames account. If you do not already have an account, you can set one up with the following link:
 [Account-Creation](https://github.com/enablegamesdev/EnableLauncher/wiki/Account-Creation)
 
+
+
 ## <a id="installation"></a>Installation
+
 You can download the installer from the [release page](https://github.com/enablegamesdev/EnableLauncher/releases).
 
 After installing the Launcher, log in using your enAbleGames account.  It may take a few minutes to check for updates.  When the Launcher asks if you would like to download updates, select "Yes".  The Launcher will open the Patcher application in a new window.
 
 After the Patcher is finished, the Launcher will re-open.  Log in again when you see the login screen, and you will see the Library page.
+
+
 
 ## <a id="games"></a> Installing and Playing Games
 
@@ -31,6 +38,10 @@ Select the game you want to download from the left side of the screen.  Click th
 When the Patcher finishes installing your game, refresh the Launcher using the blue "Refresh" button at the top of the screen, and press the "Play" button in the top-left corner to play your game.
 
 There are also buttons for "Update All" and "Reinstall All", as well as the "Reinstall Game" button.  The buttons for "all" will cue updates for all games in the patcher, the "Reinstall" buttons will delete either all games or the currently selected game, respectively. 
+
+Information about the currently selected game can be viewed on the enAbleGames website via the first tab, wich will display the name of that game.
+
+
 
 ## <a id="bodyTracking"></a>Body Tracking
 
@@ -123,3 +134,7 @@ Color Tracking can be accessed from the Options menu under the “Controls” se
 
 This method is the least intensive of any control style, though it is highly limited in the types of motions the player can make.  It is not able to calculate accurate elbow motions or lower-body motions since it only calculates hand positions.
 
+
+
+## <a id = "Game Filters"></a> Game Filters
+Game filters
