@@ -30,6 +30,8 @@ Select the game you want to download from the left side of the screen.  Click th
 
 When the Patcher finishes installing your game, refresh the Launcher using the blue "Refresh" button at the top of the screen, and press the "Play" button in the top-left corner to play your game.
 
+There are also buttons for "Update All" and "Reinstall All", as well as the "Reinstall Game" button.  The buttons for "all" will cue updates for all games in the patcher, the "Reinstall" buttons will delete either all games or the currently selected game, respectively. 
+
 ## <a id="bodyTracking"></a>Body Tracking
 
 ### There are 4 types of controls in the EnableLauncher:
