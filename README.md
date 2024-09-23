@@ -8,8 +8,9 @@ Created by [enAbleGames](https://www.enablegames.com/)
 - [Installing and Playing Games](#games)
 - [Body Tracking](#bodyTracking)
 - [Game Filters](#gameFilters)
+- [Resources/Log Out](#resources)
 
-## <a id="introduction"></a>Introduction
+/## <a id="introduction"></a>Introduction
 
 The EnableLauncher is an app from which you can download and play all games in the enAbleGames catalog.
 It handles game controls by tracking your body motions from using Kinect, Orbbec Astra, webcam, color tracking, or from connecting to the EnableServer App.
@@ -53,6 +54,8 @@ Information about the currently selected game can be viewed on the enAbleGames w
 
 ![LauncherControls](https://github.com/user-attachments/assets/e8fbf618-6a03-460e-a083-24859791cea6)
 
+
+
 **Kinect/Astra**
 
 To use the Kinect or Astra, you will need to install the appropriate drivers to your computer.  They can be found on the website via this link, along with instructions on how to set them up: [enAbleGames website](https://www.enablegames.com/manuals/startup-guide/)
@@ -67,6 +70,7 @@ Within the Body Tracking tab, there are three options for Kinect/Astra controls:
 The Kinect/Astra control mode offers some of the most accurate body controls, though it requires additional hardware to use and may be more taxing on your computer.
 
 
+
 **Webcam Tracking**
 
 Webcam Tracking can be activated by pressing the “Start Webcam Tracking” button on the Body Tracking page of the EnableLauncher.  Make sure your webcam is active before using this mode.
@@ -78,6 +82,7 @@ There are different modes that also limit the data tracked, such as "full" for f
 If you plug your camera in to your computer after the library screen has been loaded, press the "Refresh" button at the top of the screen to load it into the cameras menu of the "Holistic Webcam Controls" panel.
 
 This method of control can be used on any piece of hardware with a camera, though it also requires a GPU card.  It may slow performance depending on the capabilities of the user’s device.
+
 
 
 **enableServer App**
@@ -108,11 +113,9 @@ If you are successfully connected, a widget will appear showing the IP address y
 
 You can connect to multiple devices running the launcher and game simultaneously, but you can only connect to one game on one PC.
 
-
 **_Connect to the app from the EnableLauncher_**
 
 If you are trying to connect your secondary device to the EnableLauncher and your network supports UDP Broadcasting, you can type your secondary device’s IP address in the field under the “Receive Remote” button, then click the “Receive Remote” button.
-
 
 **_Using Holistic Motion Tracking_**
 
@@ -134,6 +137,7 @@ Face tracking is currently not supported on iOS.
 -Check your firewall settings if you have problem on connecting.
 
 
+
 **Color Tracking**
 
 Color Tracking can be accessed from the Options menu under the “Controls” section.  Make sure your webcam is active before using this mode.  The body will track two colors from your webcam, which you choose by clicking the left and right mouse buttons on the screen.
@@ -142,5 +146,12 @@ This method is the least intensive of any control style, though it is highly lim
 
 
 
-## <a id = "Game Filters"></a> Game Filters
-Game filters
+## <a id="introduction"></a>Introduction
+
+![Filters Menu](https://github.com/user-attachments/assets/299719d1-de26-4efc-a9c8-d91166bc3879)
+
+In the filters menu, you can search for games by type.  Check the box on the left side of the column to search by that category.  Change the values of that category on the right side.
+
+
+
+****
