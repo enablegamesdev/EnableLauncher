@@ -68,6 +68,7 @@ The Kinect/Astra control mode offers some of the most accurate body controls, th
 
 
 **Webcam Tracking**
+
 Webcam Tracking can be activated by pressing the “Start Webcam Tracking” button on the Body Tracking page of the EnableLauncher.  Make sure your webcam is active before using this mode.
 
 By checking the “Only Move Upper Body” option, you can reduce latency in body tracking, though you will not be able to use your legs.
@@ -80,6 +81,7 @@ This method of control can be used on any piece of hardware with a camera, thoug
 
 
 **enableServer App**
+
 The enableServer App is the standalone software that can handle motion capture using any camera on your PC, Mac, or mobile devices, including webcams. The Supported Platforms are:
 
 - iOS
@@ -90,6 +92,7 @@ If you have the enableServer app installed on a secondary device, you can remote
 This method requires a second device, but it may reduce latency in games since the body pose processing is not being handled by your computer.
 
 **_Connect to the EnableLauncher from the app_**
+
 Ensure your devices running the enableServer and tbe EnableLauncher/games are on the same network or device.
 
 In the initial menu, select your control mode.  For best performance on an iOS device, select "OSC".  Note that this control mode can only use your device's back cameras.
@@ -107,10 +110,12 @@ You can connect to multiple devices running the launcher and game simultaneously
 
 
 **_Connect to the app from the EnableLauncher_**
+
 If you are trying to connect your secondary device to the EnableLauncher and your network supports UDP Broadcasting, you can type your secondary device’s IP address in the field under the “Receive Remote” button, then click the “Receive Remote” button.
 
 
 **_Using Holistic Motion Tracking_**
+
 ![IMG-0528](https://github.com/user-attachments/assets/1c10a2cd-b325-4e73-985e-b5edda338b21)
 
 To use Holistic Motion Tracking, you must choose the camera you are using and then press the Start/Stop button. There are five modes you can choose from:
@@ -124,11 +129,13 @@ To use Holistic Motion Tracking, you must choose the camera you are using and th
 Face tracking is currently not supported on iOS.
 
 **_Known Issues_**
+
 -On iOS, if you put your device to sleep when using eAgServer, you need to restart the app to resume the tracking.
 -Check your firewall settings if you have problem on connecting.
 
 
 **Color Tracking**
+
 Color Tracking can be accessed from the Options menu under the “Controls” section.  Make sure your webcam is active before using this mode.  The body will track two colors from your webcam, which you choose by clicking the left and right mouse buttons on the screen.
 
 This method is the least intensive of any control style, though it is highly limited in the types of motions the player can make.  It is not able to calculate accurate elbow motions or lower-body motions since it only calculates hand positions.
